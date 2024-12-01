@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de tarefas</title>
+  <link rel="shortcut icon" href="favicon/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lista</h1>
+    <input type="text" id="todo-input" placeholder="Adicione uma nova tarefa">
+    <button onclick="addTodo()">Adicionar</button>
+    <main id="lista">
+      <ul id="todo-list"></ul>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
